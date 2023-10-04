@@ -1,4 +1,4 @@
-`[user@sahara ~]$ cd
+```[user@sahara ~]$ cd
 [user@sahara ~]$ cd lecture1/messages
 [user@sahara ~/lecture1/messages]$ cd ar-dz/txt
 bash: cd: ar-dz/txt: No such file or directory
@@ -13,9 +13,9 @@ Hello.class  Hello.java  messages  README
 lecture1/Hello.java
 [user@sahara ~]$ cat
 
-
 ^C
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 [user@sahara ~]$ cat lecture1/messages/ar-dz.txt
-مرحبا بالعالم!`
+مرحبا بالعالم!
+```
