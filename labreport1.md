@@ -1,3 +1,6 @@
+# Lab Report 1
+## Using Commands
+---
 ```
 [user@sahara ~]$ cd
 ```
