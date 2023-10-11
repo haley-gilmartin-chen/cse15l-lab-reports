@@ -12,3 +12,6 @@
 https://commonmark.org/help/ 
 
 ![Image](https://www.kerryfoodservice.com/cdn/shop/products/swzjjrcehfuoah8kn4hz_1000x.jpg?v=1615853893)
+
+Important LInks:
+https://sal.ucsd.edu/students/a17355192 
