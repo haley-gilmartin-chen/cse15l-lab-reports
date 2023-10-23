@@ -117,12 +117,15 @@ How do the values of any relevant fields of the class change from this specific 
 * Several messages have been added to the string. `str` is changed from `1. hiiii<3\n` to `1. hiiii<3\n 2. https://ucsd-cse12-f23.github.io/\n3. 1111@@ is extracted and added to the string\n`. `num` was incremented by one each time, and is now `3`.
 * 
 # Part 2
-
+1. 
 ![sshlogin](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/a77ad0f5-487a-4229-b112-9a96f249fde7)
-![Capture](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/0eb9ea1e-61f2-4669-8bc2-96e9c96ec62d)
+2. 
+![Capture](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/ebb2fd7f-f209-4269-848a-36d7386b3abf)
+3. 
 ![capt2](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/e9454265-b202-46ea-99eb-9ccc5e4535c2)
 
+# Part 3
 
-
+I've learned how to access remote servers through the terminal! I had never done anything like this before. Being able to create and access a server through java is a highly useful skill I will most definitely employ later in my career. Having a remote access computer is highly useful for transferring data and keeping it stored externally. Additionally, I learned how to use the `ssh` command and how to automate password entry so I don't have to re-enter it every time. 
 
 
