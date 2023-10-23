@@ -92,5 +92,37 @@ class StringServer {
 }
 ```
 
+## Screenshot 1
+![screenshot1](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/9b50f1fe-22b6-482a-a734-b87663d23b06)
+
+Which methods in your code are called?
+To start the server, the following are run:
+* `handle` in `ServerHttpHandler`
+* `start` in `Server`
+* `handleRequest` in `URLHandler`
+* `main` in `StringServer`
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* `handleRequest` in `URLHandler` anaylzes the url to add to `str` and `num`. `num` is the number of messages, and `str` is the output on the page.
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* `/add-message?s=hiiii<3` is fed into the `handleRequest` method in `URLHandler`. The string `hiiii<3` is extracted and added to the string `str`. `num` is incremented by one.
+
+## Screenshot 2
+![screenshot2](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/20de4f5b-7e9d-42e9-b293-9c735f0eaa8b)
+
+Which methods in your code are called?
+* `handleRequest` in `URLHandler` is run every time a new path is run
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* `handleRequest` in `URLHandler` anaylzes the url to add to `str` and `num`. `num` is the number of messages, and `str` is the output on the page.
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* Several messages have been added to the string. `str` is changed from `1. hiiii<3\n` to `1. hiiii<3\n 2. https://ucsd-cse12-f23.github.io/\n3. 1111@@ is extracted and added to the string\n`. `num` was incremented by one each time, and is now `3`.
+* 
+# Part 2
+
+![sshlogin](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/a77ad0f5-487a-4229-b112-9a96f249fde7)
+![Capture](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/0eb9ea1e-61f2-4669-8bc2-96e9c96ec62d)
+![capt2](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/e9454265-b202-46ea-99eb-9ccc5e4535c2)
+
+
+
 
 
