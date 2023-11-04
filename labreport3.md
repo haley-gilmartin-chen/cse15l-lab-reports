@@ -1,4 +1,71 @@
 # Lab Report 3
+## Part 1 - Bugs in `ArrayExamples.java`
+---
+
+For Part 1 of this report, we will be examining the following method:
+```
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+### Failure-inducing Input JUnit Test
+```
+@Test
+public void testReversedFailure(){
+    int[] inputArr = {1, 2, 3};
+    int[] reversed = ArrayExamples.reversed(inputArr);
+    int[] expected = {3, 2, 1};
+
+    assertArrayEquals(expected, inputArr);
+}
+```
+
+### Non-Failure-inducing Input JUnit Test
+```
+@Test
+public void testReversedSuccess(){
+    int[] inputArr = {0, 0, 0};
+    int[] reversed = ArrayExamples.reversed(inputArr);
+    int[] expected = {0, 0, 0};
+
+    assertArrayEquals(expected, inputArr);
+}
+```
+
+### Symptom
+![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/871b8875-63d9-4745-8e5b-3b18db338826)
+
+## Fixing the Bug
+Before:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+With adjustment:
+```
+public static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i < arr.length; i++) {
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
+
+In the original code, the method created a new array called `newArray` with the same length as `arr`. However, while attempting to copy `arr` in the reversed order to `newArray`, the method copies the values of `newArray` (which are all 0's --the default values) to `arr`, thus making all values of `arr` `0`. The method then returns `arr` (the original array) instead of `newArray`, which is supposed to be the copy. The adjusted version rectifies this simple mistake by switching the places of `arr` and `newArray` as needed to yield the desired result.
+
 ## Part 2 - Researching `grep`
 ---
 `-c` (or --count): Outputs the count of matching lines in each file, rather than showing the lines themselves.
@@ -84,4 +151,5 @@ fi
 ```
 After running `bash check_word.sh`, `'word' is not in the script.` is outputted. `grep -q` is useful for checking if something is in a file without producing a lengthy output. In addition to `.txt` files, `grep` can also be used on `.java` files.
 
+The information used in Part 2 was found from the following webiste: https://git-scm.com/docs/git-grep 
 
