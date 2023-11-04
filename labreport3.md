@@ -2,6 +2,7 @@
 ## Part 2 - Researching `grep`
 ---
 `-c` (or --count): Outputs the count of matching lines in each file, rather than showing the lines themselves.
+
 Example 1:
 ```
 $ grep -c "hi" myfile.txt
@@ -20,6 +21,7 @@ Here, I'm using `grep -c` on multiple files. The command prints the file name an
 ---
 
 `-n` (or --line-number): Outputs line numbers along with lines.
+
 Example 1:
 ```
 $ grep -n "error" error_messages.txt
@@ -39,6 +41,7 @@ In `warnings_log.txt`, the `grep -n` command searches for instances of the strin
 ---
 
 `-H` (or --with-filename): Outputs the file name before each line.
+
 Example 1:
 ```
 $ grep -H "keyword" *.txt
@@ -58,3 +61,27 @@ $ grep -H "hii" /Documents/UCSD/*.txt
 ---
 
 `-q` (or --quiet or --silent): Suppress normal output. It's typically used when you want to check if a pattern exists without displaying the results.
+
+Example 1:
+(Within a file called `check_hello.sh`)
+```
+if grep -q "hello" myfile.txt; then
+  echo "'hello' is in the file."
+else
+  echo "'hello' is not in the file."
+fi
+```
+After running `bash check_hello.sh`, `'hello' is in the file.` is outputted. `grep -q` is useful for checking if something is in a file without producing a huge output. The bash script is used to implement this.
+
+Example 2:
+(Within a file called `check_word.sh`)
+```
+if grep -q "word" myscript.java; then
+  echo "'word' is in the script."
+else
+  echo "'word' is not in the script."
+fi
+```
+After running `bash check_word.sh`, `'word' is not in the script.` is outputted. `grep -q` is useful for checking if something is in a file without producing a lengthy output. In addition to `.txt` files, `grep` can also be used on `.java` files.
+
+
