@@ -114,11 +114,11 @@ Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * `handleRequest` in `URLHandler` anaylzes the url to add to `str` and `num`. `num` is the number of messages, and `str` is the output on the page.
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-* Several messages have been added to the string. `str` is changed from `1. hiiii<3\n` to `1. hiiii<3\n 2. https://ucsd-cse12-f23.github.io/\n3. 1111@@ is extracted and added to the string\n`. `num` was incremented by one each time, and is now `3`.
+* Two new messages have been added to the string. `str` is changed from `1. hiiii<3\n` to `1. hiiii<3\n 2. https://ucsd-cse12-f23.github.io/\n3. 1111@@ is extracted and added to the string\n`. `num` was incremented by one each time, and is now `3`.
 * 
 # Part 2
 1. 
-![sshlogin](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/a77ad0f5-487a-4229-b112-9a96f249fde7)
+![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/0bde3cd8-fa76-4f3c-a1b0-e99c54909826)
 2. 
 ![Capture](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/ebb2fd7f-f209-4269-848a-36d7386b3abf)
 3. 
