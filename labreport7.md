@@ -22,7 +22,7 @@ Keys Pressed:
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/f331bcdc-718b-4034-849d-5144bd54a12f)
 
 Keys Pressed:
-<up>*2
+`<up>*2`
 ### 9. Commit and push the resulting change to your Github account
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/b8e765fa-72d1-44f7-9013-8c88c789f3ec)
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/8afa2cd0-9dbe-4787-ae01-d1db6a2cee62)
