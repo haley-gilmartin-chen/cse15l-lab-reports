@@ -78,10 +78,11 @@ java Main
 ```
 
 3. The full command line (or lines) you ran to trigger the bug
-`haley@haleys-tablet MINGW64 ~/Documents/UCSD/CSE15L/labrepo9`
-`$ bash run.sh`
+   
+`haley@haleys-tablet MINGW64 ~/Documents/UCSD/CSE15L/labrepo9 $ bash run.sh`
 
 4. A description of what to edit to fix the bug
+   
 In order to fix the bug, the student must cast the integers to doubles so the decimal values of the output is not truncated.
 
 ## Part 2 – Reflection
