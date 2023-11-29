@@ -86,5 +86,5 @@ In order to fix the bug, the student must cast the integers to doubles so the de
 
 ## Part 2 – Reflection
 
-
+The most interesting thing I learned was `vim`! It was fun to try to edit files as quickly as possible and time myself to see if I could get a better time. I didn't know `vim` existed, and I think it's a useful tool for file editing. I found the built in tutorial for `vim` to be quite useful as well.
    
