@@ -4,14 +4,14 @@
 ### 4. Log into ieng6
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/0c78330d-ef12-40b1-bf54-48745eccf418)
 Keys Pressed: 
-`<ssh cs15lfa23qd@ieng6.ucsd.edu>`
+`<ssh cs15lfa23qd@ieng6.ucsd.edu><Enter>`
 I used this command to enter my ieng6 account.
 
 
 ### 5. Clone your fork of the repository from your Github account (using the SSH URL)
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/9db7d28e-6230-4af2-9fa6-0d675f200f0a)
 Keys Pressed:
-`<git clone git@github.com:haley-gilmartin-chen/lab7.git>`
+`<git clone git@github.com:haley-gilmartin-chen/lab7.git><Enter>`
 I made a clone of my forked repository on my github account to my ieng6 computer.
 
 
@@ -41,6 +41,6 @@ To check if the `ListExamples.java` edits were successful and if the Junit tests
 ![image](https://github.com/haley-gilmartin-chen/cse15l-lab-reports/assets/147003402/8afa2cd0-9dbe-4787-ae01-d1db6a2cee62)
 
 Keys Pressed:
-`<git push git@github.com:haley-gilmartin-chen/lab7.git>`
+`<git push git@github.com:haley-gilmartin-chen/lab7.git><Enter>`
 After my tests ran, I committed and pushed my changes to my repository. To verify the changes were made, I checked online and found that they had pushed.
 
